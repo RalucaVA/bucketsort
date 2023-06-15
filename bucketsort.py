@@ -33,8 +33,8 @@ def insertion_sort(array):
         array[j + 1] = temp
 import random 
 dataset=[]
-for i in range(499):
-    #x=random.randrange(0, 30033)
+for i in range(4902939):
+    #x=random.randrange(0, 500000339783)
     dataset.append(i)
 dataset = [int(x) for x in dataset]
 sorted_list = bucket_sort(dataset)
